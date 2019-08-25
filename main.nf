@@ -40,7 +40,7 @@ def helpMessage() {
     Profiles:
         standard            local execution
         ii2                 SLURM execution with singularity on IMPIMBA2
-        aws                 SLURM execution with singularity on IMPIMBA2
+        aws                 SLURM execution with Docker on AWS
 
     Docker:
     obenauflab/salmon:latest
