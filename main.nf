@@ -65,9 +65,9 @@ log.info " output directory         : ${params.outputDir}"
 log.info " ======================"
 log.info ""
 
-params.Index     = "/home/rajanikanthg/sda/nf_on_aws/sorg_trans_index/sorg_trans_salmon_index"
+params.Index = "/home/rajanikanthg/sda/nf_on_aws/sorg_trans_index/sorg_trans_salmon_index"
 
-params.salmonIndex     = file(params.Index)
+params.salmonIndex = file(params.Index)
 
 
 pairedEndRegex = params.inputDir + "/*_{1,2}.fq.gz"
