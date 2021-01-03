@@ -65,7 +65,7 @@ log.info " output directory         : ${params.outputDir}"
 log.info " ======================"
 log.info ""
 
-params.Index = "/home/rajanikanthg/sda/nf_on_aws/sorg_trans_index/sorg_trans_salmon_index"
+params.Index = fromPath('/home/rajanikanthg/sda/nf_on_aws/sorg_trans_index/sorg_trans_salmon_index')
 
 params.salmonIndex = file(params.Index)
 
